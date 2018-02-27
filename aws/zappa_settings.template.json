@@ -1,0 +1,12 @@
+{
+  "dev": {
+    "app_function": "galpi.app",
+    "aws_region": "${region}",
+    "certificate_arn": "${certificate}",
+    "domain": "dev.${domain}",
+    "profile_name": "default",
+    "project_name": "galpi",
+    "runtime": "python3.6",
+    "s3_bucket": "${bucket}"
+  }
+}
