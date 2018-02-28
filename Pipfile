@@ -1,0 +1,19 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+flask = "*"
+zappa = ">=0.45.1"
+
+
+[dev-packages]
+
+awscli = "*"
+
+[requires]
+python_version = "3.6"
