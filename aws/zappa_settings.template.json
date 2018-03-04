@@ -4,6 +4,12 @@
     "aws_region": "${region}",
     "certificate_arn": "${certificate}",
     "domain": "dev.${domain}",
+    "exclude": [
+      "__pycache__",
+      "aws",
+      "node_modules",
+      "src",
+    ],
     "profile_name": "default",
     "project_name": "galpi",
     "runtime": "python3.6",
