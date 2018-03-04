@@ -18,7 +18,7 @@ setup(
     name='galpi',
     version=version,
 
-    description='Social Bookmarks',
+    description='Social bookmarks',
     url='https://github.com/yeonghoey/galpi',
 
     author='Yeongho Kim',

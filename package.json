@@ -1,0 +1,33 @@
+{
+  "name": "galpi",
+  "version": "0.0.1",
+  "description": "Social bookmarks",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeonghoey/galpi.git"
+  },
+  "author": "Yeongho Kim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yeonghoey/galpi/issues"
+  },
+  "homepage": "https://github.com/yeonghoey/galpi#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.10",
+    "style-loader": "^0.20.2",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.10"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "npm": "^5.7.1",
+    "popper": "^1.0.1"
+  }
+}
